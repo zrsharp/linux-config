@@ -1,0 +1,45 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="5" last="1588862339708" />
+      </entry>
+      <entry key="EditorLineEnd">
+        <ActionSummary times="1" last="1588861580095" />
+      </entry>
+      <entry key="FindNext">
+        <ActionSummary times="2" last="1588862729182" />
+      </entry>
+      <entry key="GotoAction">
+        <ActionSummary times="1" last="1588862471091" />
+      </entry>
+      <entry key="Images.SetBackgroundImage">
+        <ActionSummary times="1" last="1588862349063" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="2" last="1588862050523" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="1" last="1588861807494" />
+      </entry>
+      <entry key="WelcomeScreen.Settings">
+        <ActionSummary times="3" last="1588861776542" />
+      </entry>
+      <entry key="com.intellij.find.SearchReplaceComponent$12">
+        <ActionSummary times="2" last="1588862729779" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="13" last="1588862977066" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
+        <ActionSummary times="3" last="1588861774455" />
+      </entry>
+      <entry key="com.intellij.ui.components.BasicOptionButtonUI$ActionDelegate">
+        <ActionSummary times="2" last="1588861683893" />
+      </entry>
+      <entry key="com.maddyhome.idea.vim.ui.ExShortcutKeyAction">
+        <ActionSummary times="7" last="1588863045186" />
+      </entry>
+    </data>
+  </component>
+</application>

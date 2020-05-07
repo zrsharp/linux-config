@@ -1,0 +1,48 @@
+<application>
+  <component name="BackgroundImageConfiguration">
+    <option name="filename" value="http://i.imdb.com/Photos/Ss/0266543/Nemo102.jpg" />
+    <option name="localFile" value="false" />
+    <option name="enabled" value="false" />
+  </component>
+  <component name="EduSettings">
+    <option name="lastTimeChecked" value="1588861511375" />
+    <option name="shownCourseIds">
+      <set />
+    </option>
+    <option name="myShouldUseJavaFx" value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="18" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Edu.CourseCreator.Enabled" value="true" />
+    <property name="Educational.conflictingPluginsDisabled" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="background&#10;maven" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-201.7223.91-3e429ce80bb8d7bd79a42b7b33865f1e2d18f302e08cd71043d8ecaed4a4bf1d" />
+    <property name="bdt.update.check.timestamp" value="1588861511154" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Pictures/wallpapers/29.jpg&#10;/home/zerosharp/Pictures/1.png&#10;/home/zerosharp/IdeaProjects/smart-campus" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="idea.background.editor" value="$USER_HOME$/Pictures/wallpapers/29.jpg,15,scale,center" />
+    <property name="ideavim.statistics.timestamp" value="1588861936059" />
+    <property name="installed.kotlin.plugin.version" value="1.3.72-release-IJ2020.1-1" />
+    <property name="kotlin.plugin.releaseDate" value="1.3.72-release-IJ2020.1-1:2020-04-14" />
+    <property name="lastSeenTip" value="neue-IntroduceVariable.html" />
+    <property name="lastTimeTipsWereShown" value="1588861908458" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/wallpapers/29.jpg" />
+    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1588861916832" />
+    <property name="seenTips" value="neue-IntroduceVariable.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

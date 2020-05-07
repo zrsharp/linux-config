@@ -1,0 +1,65 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry>w</entry>
+        <entry>q</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts />
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/IdeaProjects/smart-campus/src/main/java/com/werun/smartcampus/SmartschoolApplication.java" timestamp="1588862793457">
+        <mark key="'" line="8" column="13" />
+        <mark key="[" line="7" column="27" />
+        <mark key="]" line="7" column="27" />
+        <mark key="^" line="7" column="33" />
+        <mark key="." line="7" column="27" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/smart-campus/src/main/java/com/werun/smartcampus/bean/SecondHandGoodBean.java" timestamp="1588862913849" />
+      <file name="/" timestamp="1588862349088">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="6" column="30" filename="$USER_HOME$/IdeaProjects/smart-campus/src/main/java/com/werun/smartcampus/SmartschoolApplication.java" />
+      <jump line="8" column="13" filename="$USER_HOME$/IdeaProjects/smart-campus/src/main/java/com/werun/smartcampus/SmartschoolApplication.java" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="a" type="4">
+        <text>x</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>S</text>
+      </register>
+      <register name=":" type="4">
+        <text>q</text>
+      </register>
+      <register name="-" type="4">
+        <text>S</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>
