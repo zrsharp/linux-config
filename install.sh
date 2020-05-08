@@ -8,6 +8,8 @@ commonOperation() {
   sudo systemctl enable mariadb
   sudo systemctl enable nginx
 
+  chsh -s /bin/fish
+
   chmod +x ./config.sh
   . config.sh
 }
@@ -44,7 +46,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite
 
     commonOperation
-    systemctl enable docker
+    sudo systemctl enable docker
 
   elif [ -f /etc/mandrake-release ]; then
     echo 'Mandrake Linux detected.'

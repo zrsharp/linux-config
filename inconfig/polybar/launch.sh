@@ -1,3 +1,3 @@
 #!/bin/bash
 killall polybar
-polybar mypolybar
+polybar mypolybar &

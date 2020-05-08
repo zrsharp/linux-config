@@ -2,6 +2,8 @@
 
 echo -n 'This will overwrite the original configuration. Do you want to continue?(yes/no, default=yes): '
 
+chsh -s /bin/fish
+
 read op
 
 if [ -z $op ] || [ $op == 'yes' ] || [ $op == 'y' ] || [ $op == 'Y' ]; then
