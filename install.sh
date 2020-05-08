@@ -43,7 +43,8 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       nginx nginx-src openssh vsftpd docker mariadb \
       gptfdisk ntfs-3g dosfstools dosemu \
       nmap tcpdump \
-      wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite
+      wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite \
+      grub-customizer 
 
     commonOperation
     sudo systemctl enable docker
@@ -61,7 +62,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
     sudo apt install \
       iw nmap tcpdump \
       neovim emacs code \
-      i3 alacritty fish compton ranger \
+      i3 fish compton ranger \
       fcitx fcitx-imlist fcitx-config-common fcitx-sunpinyin \
       openjdk-8-jdk openjdk-8-doc openjdk-8-source maven plantuml \
       clang-format nodejs python3 python3-pip golang \
