@@ -3,7 +3,7 @@
     <hdfsProjectPane id="BDT" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -19,109 +19,60 @@
       </set>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Course" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="werun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="werun" type="462c0819:PsiDirectoryNode" />
-              <item name="smartcampus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-campus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-campus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="werun" type="462c0819:PsiDirectoryNode" />
-              <item name="smartcampus" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1134000" />
+    <option name="totallyTimeSpent" value="1243000" />
   </component>
   <component name="ToolWindowManager">
     <layout>
-      <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="hadoop-toolwindow" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Internal Method Tracing" order="4" />
-      <window_info id="Commit" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="bottom" id="Endpoints" order="4" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="BigDataToolWindow" order="4" />
-      <window_info id="Web" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="4" />
-      <window_info anchor="bottom" id="Flow" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Problems View" order="3" />
-      <window_info anchor="bottom" id="Project Problems" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="9" />
+      <window_info anchor="bottom" id="Flow" order="13" />
+      <window_info anchor="bottom" id="zeppelin-shell-toolwindow" order="17" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Spring" order="22" />
+      <window_info anchor="bottom" id="TypeScript" order="18" />
+      <window_info anchor="bottom" id="Services" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SparkMonitoringToolWindow" order="16" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="20" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
+      <window_info anchor="bottom" id="internal-profiler" order="19" />
+      <window_info anchor="bottom" id="hadoop-toolwindow" order="8" />
+      <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="SparkMonitoringToolWindow" order="4" />
-      <window_info anchor="bottom" id="zeppelin-shell-toolwindow" order="4" />
-      <window_info anchor="bottom" id="TypeScript" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="internal-profiler" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Project Problems" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="21" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="right" id="BigDataToolWindow" order="1" />
+      <window_info id="Commit" order="5" />
       <window_info anchor="right" id="Ant" order="4" />
-      <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23165388" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2431694" />
+      <window_info anchor="bottom" id="Endpoints" order="11" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="2" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
     </layout>
   </component>
   <component name="editorHistoryManager">

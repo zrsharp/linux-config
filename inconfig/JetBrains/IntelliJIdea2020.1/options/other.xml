@@ -25,7 +25,7 @@
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SettingsSearchHistory" value="background&#10;maven" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-201.7223.91-3e429ce80bb8d7bd79a42b7b33865f1e2d18f302e08cd71043d8ecaed4a4bf1d" />
+    <property name="appcds.runOnSecondStart" value="IU-201.7223.91-2566971f17601e74d96936127e22f82f4b3dc310059b8558fcef5f4fe645eb5b" />
     <property name="bdt.update.check.timestamp" value="1588861511154" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Pictures/wallpapers/29.jpg&#10;/home/zerosharp/Pictures/1.png&#10;/home/zerosharp/IdeaProjects/smart-campus" />
@@ -37,7 +37,7 @@
     <property name="lastSeenTip" value="neue-IntroduceVariable.html" />
     <property name="lastTimeTipsWereShown" value="1588861908458" />
     <property name="last_opened_file_path" value="$USER_HOME$/Pictures/wallpapers/29.jpg" />
-    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
+    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="$USER_HOME$/Pictures/wallpapers/29.jpg" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
     <property name="packagesearch.status.updated.ts" value="1588861916832" />

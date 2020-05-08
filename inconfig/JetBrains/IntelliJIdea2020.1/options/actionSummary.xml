@@ -2,19 +2,22 @@
   <component name="ActionsLocalSummary">
     <data>
       <entry key="EditorBackSpace">
-        <ActionSummary times="5" last="1588862339708" />
+        <ActionSummary times="6" last="1588936388852" />
       </entry>
       <entry key="EditorLineEnd">
         <ActionSummary times="1" last="1588861580095" />
+      </entry>
+      <entry key="Exit">
+        <ActionSummary times="2" last="1588936468438" />
       </entry>
       <entry key="FindNext">
         <ActionSummary times="2" last="1588862729182" />
       </entry>
       <entry key="GotoAction">
-        <ActionSummary times="1" last="1588862471091" />
+        <ActionSummary times="3" last="1588936401605" />
       </entry>
       <entry key="Images.SetBackgroundImage">
-        <ActionSummary times="1" last="1588862349063" />
+        <ActionSummary times="2" last="1588936395441" />
       </entry>
       <entry key="ShowSettings">
         <ActionSummary times="2" last="1588862050523" />
