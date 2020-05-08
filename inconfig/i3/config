@@ -215,3 +215,4 @@ gaps inner 8
 exec feh --randomize --bg-fill ~/Pictures/wallpapers
 exec_always compton
 exec_always fcitx
+exec_always ~/.config/polybar/launch.sh
