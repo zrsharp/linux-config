@@ -53,6 +53,8 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
     #sudo systemctl enable docker
     commonOperation
 
+    # Xorg: https://wiki.archlinux.org/index.php/Xorg
+
   elif [ -f /etc/mandrake-release ]; then
     echo 'Mandrake Linux detected.'
 
