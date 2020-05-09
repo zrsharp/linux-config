@@ -44,7 +44,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       gptfdisk ntfs-3g dosfstools dosemu \
       nmap tcpdump \
       wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite \
-      grub-customizer 
+      grub-customizer
 
     commonOperation
     sudo systemctl enable docker
