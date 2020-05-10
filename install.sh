@@ -2,11 +2,7 @@
 
 commonOperation() {
   sudo ln -sf /usr/bin/nvim /usr/bin/vim
-
-
-
   chsh -s /bin/fish
-
   chmod +x ./config.sh
   . config.sh
 }
