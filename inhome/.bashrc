@@ -9,6 +9,8 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -al --color=auto'
 
+alias rm-'rm -i'
+
 alias soundup='amixer set Master 5%+'
 alias sounddown='amixer set Master 5%-'
 alias soundshow='amixer set Master toggle'

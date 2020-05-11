@@ -25,7 +25,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       base-devel iw wpa_supplicant dhcpcd networkmanager nm-connection-editor libnm libnma \
       neovim emacs code \
       xorg xorg-xinit lightdm lightdm-gtk-greeter i3 \
-      alacritty fish compton ranger polybar dmenu \
+      alacritty fish picom ranger polybar dmenu \
       alsa-utils alsa-firmware alsa-tools alsa-plugins alsa-lib  \
       pulseaudio pulseaudio-alsa pavucontrol \
       fcitx fcitx-im fcitx-configtool fcitx-sunpinyin \
@@ -36,7 +36,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       v2ray qv2ray figlet neofetch acpi tlp \
       nginx nginx-src openssh vsftpd docker mariadb \
       gptfdisk ntfs-3g dosfstools dosemu \
-      nmap tcpdump \
+      nmap tcpdump inetutils bind-tools \
       wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite \
       grub-customizer
 
@@ -62,7 +62,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
     sudo apt update
     sudo apt upgrade
     sudo apt install \
-      iw nmap tcpdump \
+      iw nmap tcpdump dnsutils \
       neovim emacs code \
       i3 fish compton ranger \
       fcitx fcitx-imlist fcitx-config-common fcitx-sunpinyin \
