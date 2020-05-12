@@ -25,7 +25,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       base-devel iw wpa_supplicant dhcpcd networkmanager nm-connection-editor libnm libnma \
       neovim emacs code \
       xorg xorg-xinit lightdm lightdm-gtk-greeter i3 \
-      alacritty fish picom ranger polybar dmenu \
+      alacritty fish picom ranger polybar dmenu conky \
       alsa-utils alsa-firmware alsa-tools alsa-plugins alsa-lib  \
       pulseaudio pulseaudio-alsa pavucontrol \
       fcitx fcitx-im fcitx-configtool fcitx-sunpinyin \
@@ -64,7 +64,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
     sudo apt install \
       iw nmap tcpdump dnsutils \
       neovim emacs code \
-      i3 fish compton ranger \
+      i3 fish compton ranger conky \
       fcitx fcitx-imlist fcitx-config-common fcitx-sunpinyin \
       openjdk-8-jdk openjdk-8-doc openjdk-8-source maven plantuml \
       clang-format nodejs python3 python3-pip golang \
