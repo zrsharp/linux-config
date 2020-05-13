@@ -4,19 +4,33 @@
       <map>
         <entry key="$USER_HOME$/IdeaProjects/smart-campus">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1bYrJRvKRWHdYo08GkSbSNctIhw">
+            <RecentProjectMetaInfo projectWorkspaceId="1bYrJRvKRWHdYo08GkSbSNctIhw">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-201.7223.91" />
-              <option name="buildTimestamp" value="1588217397285" />
+              <option name="buildTimestamp" value="1588217365537" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1588936442516" />
+              <option name="projectOpenTimestamp" value="1589342144705" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/springbootdemo">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1bpweiDkU3gjrsznQvIY2P6eJP1">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-201.7223.91" />
+              <option name="buildTimestamp" value="1588217382833" />
+              <frame x="10" y="10" width="1900" height="1027" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1589379305816" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/IdeaProjects/springbootdemo" />
         <option value="$USER_HOME$/IdeaProjects/smart-campus" />
       </list>
     </option>

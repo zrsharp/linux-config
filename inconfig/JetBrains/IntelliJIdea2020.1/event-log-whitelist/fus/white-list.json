@@ -40,6 +40,7 @@
       "event_id" : [ "{util#action}", "{enum:action.invoked|custom.action.invoked}" ],
       "event_data" : {
         "action_id" : [ "{util#action}" ],
+        "additional.toolwindow" : [ "{util#toolwindow}" ],
         "class" : [ "{util#class_name}" ],
         "context_menu" : [ "{enum#boolean}" ],
         "current_file" : [ "{util#current_file}" ],
@@ -1659,6 +1660,32 @@
       },
       "enums" : {
         "setting" : [ "REBUILD_ON_DEPENDENCY_CHANGE", "DISPLAY_NOTIFICATION_POPUP", "PARALLEL_COMPILATION", "COMPILE_AFFECTED_UNLOADED_MODULES_BEFORE_COMMIT", "MAKE_PROJECT_ON_SAVE", "AUTO_SHOW_ERRORS_IN_EDITOR", "CLEAR_OUTPUT_DIRECTORY" ]
+      }
+    }
+  }, {
+    "id" : "java.extract.method",
+    "builds" : [ ],
+    "versions" : [ {
+      "from" : "1"
+    } ],
+    "rules" : {
+      "event_id" : [ "{enum:dialog.closed}" ],
+      "event_data" : {
+        "annotated" : [ "{enum#boolean}" ],
+        "constructor" : [ "{enum#boolean}" ],
+        "finished" : [ "{enum#boolean}" ],
+        "folded" : [ "{enum#boolean}" ],
+        "make_varargs" : [ "{enum#boolean}" ],
+        "parameters_count" : [ "{regexp#integer}" ],
+        "parameters_removed" : [ "{enum#boolean}" ],
+        "parameters_renamed" : [ "{enum#boolean}" ],
+        "parameters_reordered" : [ "{enum#boolean}" ],
+        "parameters_type_changed" : [ "{enum#boolean}" ],
+        "preview_used" : [ "{enum#boolean}" ],
+        "return_changed" : [ "{enum#boolean}" ],
+        "static" : [ "{enum#boolean}" ],
+        "static_pass_fields_available" : [ "{enum#boolean}" ],
+        "visibility_changed" : [ "{enum#boolean}" ]
       }
     }
   }, {
@@ -4254,7 +4281,7 @@
       },
       "enums" : {
         "_" : [ "Default", "default", "trim_whitespaces", "TRIM_WHITESPACES", "ignore_whitespaces", "IGNORE_WHITESPACES_CHUNKS", "ignore_whitespaces_chunks", "formatting", "by_line", "by_word", "by_word_split", "BY_WORD_SPLIT", "by_char", "do_not_highlight", "inspections", "advanced", "simple", "enabled", "disabled", "ChangesView", "VcsLogView", "CommitDialog", "Merge", "TestsFiledAssertions" ],
-        "_1" : [ "ignore.policy", "highlight.policy", "show.warnings.policy", "collapse.unchanged", "show.line.numbers", "use.soft.wraps", "use.unified.diff", "enable.read.lock", "iterate.next.file", "use.external.diff", "use.external.diff.by.default", "use.external.merge", "sync.scroll", "context.range", "merge.apply.non.conflicted", "merge.enable.lst.markers", "show.breadcrumbs" ],
+        "_1" : [ "ignore.policy", "highlight.policy", "show.warnings.policy", "collapse.unchanged", "show.line.numbers", "use.soft.wraps", "use.unified.diff", "enable.read.lock", "iterate.next.file", "use.external.diff", "use.external.diff.by.default", "use.external.merge", "sync.scroll", "context.range", "merge.apply.non.conflicted", "merge.enable.lst.markers", "show.breadcrumbs", "show.indent.lines", "show.white.spaces" ],
         "diff_place" : [ "Default", "ChangesView", "VcsLogView", "CommitDialog", "TestsFiledAssertions", "Merge", "DirDiff", "External" ],
         "value" : [ "INSPECTIONS", "ADVANCED", "SIMPLE", "DEFAULT", "TRIM_WHITESPACES", "IGNORE_WHITESPACES", "IGNORE_WHITESPACES_CHUNKS", "FORMATTING", "BY_LINE", "BY_WORD", "BY_WORD_SPLIT", "BY_CHAR", "DO_NOT_HIGHLIGHT", "BOTTOM", "TOP" ]
       }
@@ -4532,5 +4559,5 @@
       "version" : "(\\d+\\.?)*\\d+"
     }
   },
-  "version" : "1254"
+  "version" : "1258"
 }

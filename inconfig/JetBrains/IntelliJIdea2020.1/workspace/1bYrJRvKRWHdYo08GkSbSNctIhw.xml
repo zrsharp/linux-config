@@ -29,22 +29,22 @@
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1243000" />
+    <option name="totallyTimeSpent" value="1505000" />
   </component>
   <component name="ToolWindowManager">
     <layout>
-      <window_info id="Persistence" order="0" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="bottom" id="Internal Method Tracing" order="9" />
       <window_info anchor="bottom" id="Flow" order="13" />
       <window_info anchor="bottom" id="zeppelin-shell-toolwindow" order="17" />
       <window_info anchor="bottom" id="Run" order="4" />
-      <window_info anchor="bottom" id="Spring" order="22" />
+      <window_info id="Persistence" order="0" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="18" />
       <window_info anchor="bottom" id="Services" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SparkMonitoringToolWindow" order="16" />
@@ -55,22 +55,22 @@
       <window_info anchor="bottom" id="internal-profiler" order="19" />
       <window_info anchor="bottom" id="hadoop-toolwindow" order="8" />
       <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Project Problems" order="14" />
+      <window_info anchor="bottom" id="Spring" order="22" />
       <window_info anchor="bottom" id="Database Changes" order="21" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="right" id="BigDataToolWindow" order="1" />
       <window_info id="Commit" order="5" />
       <window_info anchor="right" id="Ant" order="4" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2431694" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24699454" />
       <window_info anchor="bottom" id="Endpoints" order="11" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="2" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
     </layout>
