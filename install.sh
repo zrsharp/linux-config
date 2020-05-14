@@ -1,11 +1,11 @@
 #!/bin/bash
 
-commonOperation() {
-  sudo ln -sf /usr/bin/nvim /usr/bin/vim
-  chsh -s /bin/fish
-  chmod +x ./config.sh
-  . config.sh
-}
+#commonOperation() {
+#  sudo ln -sf /usr/bin/nvim /usr/bin/vim
+#  chsh -s /bin/fish
+#  chmod +x ./config.sh
+#  . config.sh
+#}
 
 if [[ $OSTYPE == 'linux-gnu' ]]; then
   if [ -f /etc/redhat-release ]; then
@@ -17,12 +17,12 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
   elif [ -f /etc/arch-release ]; then
     echo 'Arch Linux detected.'
 
-    sudo cp -f ./pacman/pacman.conf /etc
-    sudo cp -f ./pacman/mirrorlist /etc/pacman.d
+    #sudo cp -f ./pacman/pacman.conf /etc
+    #sudo cp -f ./pacman/mirrorlist /etc/pacman.d
 
     sudo pacman -Syyu
     sudo pacman -S \
-      base-devel iw wpa_supplicant dhcpcd networkmanager nm-connection-editor libnm libnma \
+      base-devel iw wpa_supplicant dhcpcd networkmanager dhclient \
       neovim emacs code \
       xorg xorg-xinit lightdm lightdm-gtk-greeter i3 \
       alacritty fish picom ranger polybar dmenu conky \
@@ -40,10 +40,10 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite \
       grub-customizer
 
-    sudo systemctl enable tlp
-    sudo systemctl enable lightdm
-    sudo systemctl enable alsa-restore
-    sudo systemctl enable alsa-state
+    #sudo systemctl enable tlp
+    #sudo systemctl enable lightdm
+    #sudo systemctl enable alsa-restore
+    #sudo systemctl enable alsa-state
     #sudo systemctl enable mariadb
     #sudo systemctl enable nginx
     #sudo systemctl enable docker
