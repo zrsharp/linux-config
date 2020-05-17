@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#commonOperation() {
+commonOperation() {
 #  sudo ln -sf /usr/bin/nvim /usr/bin/vim
-#  chsh -s /bin/fish
-#  chmod +x ./config.sh
-#  . config.sh
-#}
+  chsh -s /bin/fish
+  chmod +x ./config.sh
+  . config.sh
+}
 
 if [[ $OSTYPE == 'linux-gnu' ]]; then
   if [ -f /etc/redhat-release ]; then
@@ -20,7 +20,7 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
     #sudo cp -f ./pacman/pacman.conf /etc
     #sudo cp -f ./pacman/mirrorlist /etc/pacman.d
 
-    sudo pacman -Syyu
+    sudo pacman -Syu
     sudo pacman -S \
       base-devel iw wpa_supplicant dhcpcd networkmanager \
       neovim emacs code \
@@ -31,12 +31,12 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       jdk8-openjdk openjdk8-doc openjdk8-src maven plantuml \
       clang nodejs python python-pip go \
       chromium libreoffice virtualbox qq-linux baidunetdisk-bin zathura zathura-pdf-poppler \
-      kdenlive vlc mplayer gthumb simplescreenrecorder screenkey gimp dia \
+      vlc mplayer gthumb obs-studio screenkey gimp dia \
       v2ray qv2ray figlet neofetch acpi tlp \
       nginx nginx-src openssh vsftpd docker mariadb \
       gptfdisk ntfs-3g dosfstools dosemu \
       nmap tcpdump inetutils bind-tools \
-      wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite \
+      wqy-microhei wqy-zenhei wqy-bitmapfont wqy-microhei-lite ttf-dejavu \
       grub-customizer
 
     #sudo systemctl enable tlp
@@ -64,16 +64,16 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
       iw nmap tcpdump dnsutils \
       neovim emacs code \
       i3 fish compton ranger conky \
-      fcitx fcitx-imlist fcitx-config-common fcitx-sunpinyin \
+      fcitx fcitx-config-common fcitx-sunpinyin \
       openjdk-8-jdk openjdk-8-doc openjdk-8-source maven plantuml \
       clang-format nodejs python3 python3-pip golang \
       chromium libreoffice virtualbox zathura zathura-pdf-poppler \
-      kdenlive vlc mplayer gthumb simplescreenrecorder screenkey gimp dia \
-      figlet neofetch acpi tlp \
+      vlc mplayer gthumb screenkey gimp dia \
+      figlet neofetch acpi tlp obs-studio \
       nginx nginx-doc openssh-client openssh-server openssh-sftp-server vsftpd \
       mariadb-server mariadb-client \
       ntfs-3g dosfstools dosemu \
-      fonts-wqy-microhei fonts-wqy-zenhei ttf-wqy-microhei ttf-wqy-zenhei
+      fonts-wqy-microhei fonts-wqy-zenhei ttf-wqy-microhei ttf-wqy-zenhei ttf-dejavu
 
     sudo systemctl enable tlp
     #sudo systemctl enable mariadb
