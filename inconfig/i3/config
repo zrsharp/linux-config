@@ -39,11 +39,15 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
-set $up l
-set $down k
-set $left j
-set $right semicolon
+#set $up l
+#set $down k
+#set $left j
+#set $right semicolon
 
+set $up k
+set $down j
+set $left h
+set $right l
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -87,10 +91,9 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
-
+#bindsym $mod+h split h
 # split in vertical orientation
-bindsym $mod+v split v
+#bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -193,7 +196,25 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+    status_command i3status
+    #mode hide
+    i3bar_command i3bar -t
+    position bottom
+    separator_symbol "|"
+
+    tray_output #00000066
+    colors {
+        background #00000066
+        statusline #F0FFFF
+        separator  #3399FF
+        # 工作区颜色         边框    背景    文字
+        focused_workspace  #3297FD #1111117F #FFFFFF
+        active_workspace   #FFFFFF #FFFFFF7F #FFFFFF
+        inactive_workspace #888888 #1111117F #FFFFFF
+        urgent_workspace   #990000 #1111117F #FFFFFF
+        binding_mode       #990000 #9900007F #FFFFFF
+    } 
+
 }
 
 #######################################################################
@@ -219,7 +240,7 @@ default_border pixel
 gaps inner 10
 
 exec feh --randomize --bg-fill ~/Pictures/wallpapers
-exec_always compton
-exec_always fcitx
-exec_always conky -d
+exec picom
 exec_always ~/.config/polybar/launch.sh
+exec fcitx
+

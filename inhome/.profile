@@ -8,3 +8,5 @@ export JAVA_HOME=/usr/lib/jvm/default
 
 export PATH=$PATH:~/.local/bin
 
+export PATH=$PATH:~/.local/lib/python3.8/site-packages
+

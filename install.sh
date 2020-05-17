@@ -22,13 +22,12 @@ if [[ $OSTYPE == 'linux-gnu' ]]; then
 
     sudo pacman -Syyu
     sudo pacman -S \
-      base-devel iw wpa_supplicant dhcpcd networkmanager dhclient \
+      base-devel iw wpa_supplicant dhcpcd networkmanager \
       neovim emacs code \
       xorg xorg-xinit lightdm lightdm-gtk-greeter i3 \
       alacritty fish picom ranger polybar dmenu conky \
-      alsa-utils alsa-firmware alsa-tools alsa-plugins alsa-lib  \
-      pulseaudio pulseaudio-alsa pavucontrol \
-      fcitx fcitx-im fcitx-configtool fcitx-sunpinyin \
+      alsa-utils alsa-plugins pulseaudio pavucontrol \
+      fcitx-im fcitx-configtool fcitx-sunpinyin \
       jdk8-openjdk openjdk8-doc openjdk8-src maven plantuml \
       clang nodejs python python-pip go \
       chromium libreoffice virtualbox qq-linux baidunetdisk-bin zathura zathura-pdf-poppler \

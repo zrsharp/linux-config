@@ -19,10 +19,6 @@ end
 
 fish_vi_key_bindings
 
-alias soundup 'amixer set Master 5%+'
-alias sounddown 'amixer set Master 5%-'
-alias soundshow 'amixer set Master toggle'
-
 alias feh 'feh --randomize --bg-fill'
 
 uname -a
