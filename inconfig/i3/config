@@ -201,8 +201,7 @@ bar {
     i3bar_command i3bar -t
     position bottom
     separator_symbol "|"
-
-    tray_output #00000066
+    tray_output none
     colors {
         background #00000066
         statusline #F0FFFF
@@ -239,7 +238,7 @@ bindsym $mod+F1 exec amixer set Master toggle
 default_border pixel
 gaps inner 10
 
-exec feh --randomize --bg-fill ~/Pictures/wallpapers
+exec feh --randomize --bg-fill ~/Pictures/wallpapers/29.jpg
 exec picom
 exec_always ~/.config/polybar/launch.sh
 exec fcitx

@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -al --color=auto'
 
-alias rm-'rm -i'
+alias rm='rm -i'
 
 PS1='[\u@\h \W]\$ '
 
