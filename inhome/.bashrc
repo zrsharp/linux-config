@@ -7,7 +7,8 @@
 
 alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
-alias la='ls -al --color=auto'
+alias la='ls -Al --color=auto'
+alias l='ls -A --color=auto'
 
 alias rm='rm -i'
 
@@ -17,3 +18,4 @@ if [ -f /usr/share/bash-completion/bash_completion ]; then
     source /usr/share/bash-completion/bash_completion   
 fi
 
+set -o vi
